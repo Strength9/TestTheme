@@ -1,0 +1,34 @@
+/* 
+Theme Name: XRAY
+Theme URI: https://strength9.co.uk
+Description: XRAY Naked Base Theme
+Author: Dave Pratt
+Author URI: https://strength9.co.uk
+Version: 1.0.1
+Text Domain: xray
+License: GNU General Public License v3 or later.
+License URI: https://www.gnu.org/licenses/gpl-3.0.html
+Tags: naked, bare, quick
+*/
+
+/* Admin Fixes For Dashboard */
+body.admin-bar #branding-wrap{top: 28px;} 
+body.admin-bar #wrapper{margin-top: 145px;}
+body.logged-in .wrap.woocomerce .mainform {margin-top: 145px;}
+
+// Make the edit screen full width
+.wp-block { padding:0 50px; max-width:none;  }
+ 
+ @import '_design_styles/fonts'; /* Font Family Calls */
+
+ @import '_design_styles/base'; /* Start of the design ... */
+ @import '_design_styles/animated'; /* Start of the design ... */
+ 
+
+ @import '_page_structure/header';       /* Header CSS */
+ @import '_page_structure/footer';       /* Footer CSS */
+ 
+ 
+ 
+
+    
